@@ -8,9 +8,25 @@
   --card-shadow: 0 4px 24px rgba(0, 87, 255, 0.1);
   --radius: 14px;
 }
+/* -----------------set by sothatt */
+
+.text-primary{
+  color: var(--primary) !important;
+}
+.bg-primary{
+  background-color:var(--primary) !important;
+}
+.btn-primary{
+  background-color: var(--primary) !important;
+}
+.btn-outline-primary{
+  background-color: var(--primary);
+}
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -18,6 +34,7 @@ body {
   background: #fff;
   color: var(--dark);
 }
+
 
 /* ── NAVBAR ── */
 .navbar {
